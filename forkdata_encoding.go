@@ -3,7 +3,7 @@
 package types
 
 import (
-	ssz "github.com/ferranbt/fastssz"
+	ssz "github.com/sila-chain/fastssz"
 )
 
 // MarshalSSZ ssz marshals the ForkData object

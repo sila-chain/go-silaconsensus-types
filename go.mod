@@ -3,7 +3,7 @@ module github.com/sila-chain/go-silaconsensus-types/v2
 go 1.20
 
 require (
-	github.com/ferranbt/fastssz v0.1.3
+	github.com/sila-chain/fastssz v0.1.3
 	github.com/herumi/bls-eth-go-binary v1.31.0
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.8.4
