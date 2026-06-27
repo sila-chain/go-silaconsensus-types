@@ -20,7 +20,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	e2types "github.com/wealdtech/go-eth2-types/v2"
+	e2types "github.com/wealdtech/go-silaconsensus-types/v2"
 )
 
 func _hexStringToBytes(input string) []byte {
