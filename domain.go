@@ -15,7 +15,7 @@ package types
 
 import "github.com/pkg/errors"
 
-// DomainType defines the type of the domain, as per https://github.com/ethereum/eth2.0-specs/blob/dev/specs/phase0/beacon-chain.md#custom-types
+// DomainType defines the type of the domain, as per https://github.com/sila-chain/Sila-Consensus-Specs/blob/dev/specs/phase0/beacon-chain.md#custom-types
 type DomainType [4]byte
 
 // ZeroForkVersion is an empty fork version.
