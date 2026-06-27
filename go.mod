@@ -1,4 +1,4 @@
-module github.com/wealdtech/go-silaconsensus-types/v2
+module github.com/sila-chain/go-silaconsensus-types/v2
 
 go 1.20
 
