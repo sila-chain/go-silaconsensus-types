@@ -15,7 +15,7 @@
 package types
 
 import (
-	bls "github.com/herumi/bls-eth-go-binary/bls"
+	bls "github.com/sila-chain/bls-sila-go-binary/bls"
 )
 
 // InitBLS initialises the BLS library with the appropriate curve and parameters for Ethereum 2.

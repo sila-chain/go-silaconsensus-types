@@ -14,8 +14,8 @@
 package types
 
 import (
-	bls "github.com/herumi/bls-eth-go-binary/bls"
 	"github.com/pkg/errors"
+	bls "github.com/sila-chain/bls-sila-go-binary/bls"
 )
 
 // BLSPrivateKey is a private key in Ethereum 2.

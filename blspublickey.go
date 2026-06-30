@@ -17,8 +17,8 @@ import (
 	"fmt"
 	"sync"
 
-	bls "github.com/herumi/bls-eth-go-binary/bls"
 	"github.com/pkg/errors"
+	bls "github.com/sila-chain/bls-sila-go-binary/bls"
 )
 
 // Size of an Ethereum BLS public key, in bytes.

@@ -3,8 +3,8 @@ module github.com/sila-chain/go-silaconsensus-types/v2
 go 1.22
 
 require (
-	github.com/herumi/bls-eth-go-binary v1.31.0
 	github.com/pkg/errors v0.9.1
+	github.com/sila-chain/bls-sila-go-binary v1.31.1
 	github.com/sila-chain/fastssz v0.1.4-sila.3
 	github.com/stretchr/testify v1.8.4
 )

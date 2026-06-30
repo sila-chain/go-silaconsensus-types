@@ -1,7 +1,5 @@
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/herumi/bls-eth-go-binary v1.31.0 h1:9eeW3EA4epCb7FIHt2luENpAW69MvKGL5jieHlBiP+w=
-github.com/herumi/bls-eth-go-binary v1.31.0/go.mod h1:luAnRm3OsMQeokhGzpYmc0ZKwawY7o87PUEP11Z7r7U=
 github.com/klauspost/cpuid/v2 v2.0.4/go.mod h1:FInQzS24/EEf25PyTYn52gqo7WaD8xa0213Md/qVLRg=
 github.com/klauspost/cpuid/v2 v2.0.9 h1:lgaqFMSdTdQYdZ04uHyN2d/eKdOMyi2YLSvlQIBFYa4=
 github.com/klauspost/cpuid/v2 v2.0.9/go.mod h1:FInQzS24/EEf25PyTYn52gqo7WaD8xa0213Md/qVLRg=
@@ -13,6 +11,8 @@ github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
 github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
+github.com/sila-chain/bls-sila-go-binary v1.31.1 h1:yn1/dFTt9u+oeD9kQODPwbpHyjH+8ZKZb82Y520nbj0=
+github.com/sila-chain/bls-sila-go-binary v1.31.1/go.mod h1:PUZLJw23kXE4aVOcOzUGBoEh/I7PP2L2VhRuNDa7Cfo=
 github.com/sila-chain/fastssz v0.1.4-sila.3 h1:WgLi8WajlUNE5q81/J0hCFJpjxEg1/kC3IZqXZ1+MJ0=
 github.com/sila-chain/fastssz v0.1.4-sila.3/go.mod h1:I7HXy0gTCKFBcb8mqEVsab3pHjlWZq03S9qEmDCAeoo=
 github.com/sila-chain/gohashtree v0.0.0-20260627124905-8386602ecf40 h1:m1v63/Yr0f2+XkOyA95b4iGLf79X7Z9Uv+bYgGUHwYQ=
