@@ -66,7 +66,25 @@ func (f *ForkData) HashTreeRootWith(hh ssz.HashWalker) (err error) {
 	return
 }
 
-// GetTree ssz hashes the ForkData object
+// GetTreeWithWrapper returns tree-backing for the ForkData object
+func (f *ForkData) GetTreeWithWrapper(w *ssz.Wrapper) (err error) {
+	indx := w.Indx()
+
+	// Field (0) 'CurrentVersion'
+	w.AddBytes(f.CurrentVersion[:])
+
+	// Field (1) 'GenesisValidatorsRoot'
+	w.AddBytes(f.GenesisValidatorsRoot[:])
+
+	w.Commit(indx)
+	return
+}
+
+// GetTree returns tree-backing for the ForkData object
 func (f *ForkData) GetTree() (*ssz.Node, error) {
-	return ssz.ProofTree(f)
+	w := new(ssz.Wrapper)
+	if err := f.GetTreeWithWrapper(w); err != nil {
+		return nil, err
+	}
+	return w.Node(), nil
 }
